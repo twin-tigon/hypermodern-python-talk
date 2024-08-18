@@ -1,0 +1,29 @@
+[project]
+name = "todo-api"
+version = "0.1.0"
+description = "Todo API built with FastAPI"
+authors = [{ name = "Rodrigo García", email = "yo@rodrigogarcia.me" }]
+dependencies = [
+    "fastapi>=0.112.1",
+    "pydantic-settings>=2.4.0",
+    "uvicorn>=0.30.6",
+    "sqlalchemy>=2.0.32",
+    "alembic>=1.13.2",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.setuptools]
+packages = ["app"]
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pre-commit>=3.8.0",
+    "pytest>=8.3.2",
+    "httpx>=0.27.0",
+    "pytest-mock>=3.14.0",
+]
+
+[tool.rye.scripts]
+start = "python -c 'from app.main import start; start()'"

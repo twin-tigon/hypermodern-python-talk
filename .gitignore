@@ -1,7 +1,24 @@
-node_modules
+# general
 .DS_Store
+.vscode
 dist
-*.local
-.vite-inspect
+
+# slides
 .remote-assets
+.vite-inspect
+*.local
 components.d.ts
+node_modules
+
+# todo-api
+__pycache__
+.env
+.pytest_cache
+.ruff_cache
+.venv
+*.db
+*.egg-info
+*.py[oc]
+*.session.sql
+build/
+wheels/

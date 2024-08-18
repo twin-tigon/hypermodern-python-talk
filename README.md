@@ -1,11 +1,6 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# hypermodern-python-talk
 
-To start the slide show:
+Resources for the Hypermodern Web Development using Python and FastAPI talk.
 
-- `npm install`
-- `npm run dev`
-- visit <http://localhost:3030>
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev at the [documentation](https://sli.dev/).
+- `slides`: Talk slides built using Slidev
+- `todo-api`: Example Todo API built using FastAPI
