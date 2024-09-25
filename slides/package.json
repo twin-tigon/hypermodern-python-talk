@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@primevue/themes": "^4.0.5",
-    "@slidev/cli": "^0.49.24",
+    "@slidev/cli": "^0.49.29",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "chart.js": "^4.4.4",
