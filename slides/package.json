@@ -8,7 +8,7 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@primevue/themes": "^4.0.5",
+    "@primevue/themes": "^4.1.1",
     "@slidev/cli": "^0.49.29",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
